@@ -1,0 +1,385 @@
+{
+  "nav": {
+    "home": "Laman Utama",
+    "books": "Sumber Pembelajaran",
+    "publications": "Kursus",
+    "about": "Tentang Intellecta",
+    "platform": "Cara Ia Berfungsi",
+    "contact": "Hubungi Kami",
+    "categories": {
+      "courses": "Kursus",
+      "programming": "Pengaturcaraan",
+      "mathematics": "Matematik",
+      "sciences": "Sains Semula Jadi",
+      "business": "Perniagaan & Ekonomi",
+      "languages": "Bahasa"
+    },
+    "language": "Bahasa"
+  },
+  "home": {
+    "bismillah": "Cara yang lebih baik untuk terus belajar",
+    "title": "Belajar sesuatu yang berguna. Kemudian gunakannya.",
+    "subtitle": "Pembelajaran tersusun untuk minda yang ingin tahu.",
+    "description": "Intellecta menggabungkan kursus fokus, latihan praktikal dan sumber pembelajaran dalam ruang moden yang tenang — dibina untuk kemajuan yang konsisten.",
+    "cta": "Terokai kursus",
+    "latestTitle": "Pembelajaran pilihan",
+    "features": {
+      "programming": {
+        "title": "Pengaturcaraan",
+        "desc": "Bina keyakinan teknikal melalui konsep, contoh dan latihan praktikal."
+      },
+      "languages": {
+        "title": "Bahasa",
+        "desc": "Bangunkan kemahiran bahasa melalui laluan pembelajaran yang progresif."
+      },
+      "courses": {
+        "title": "Kursus Tersusun",
+        "desc": "Ikuti pelajaran fokus untuk menukar idea kepada pengetahuan berguna."
+      },
+      "mathematics": {
+        "title": "Matematik",
+        "desc": "Kukuhkan penaakulan dan penyelesaian masalah melalui pembelajaran berpandu."
+      },
+      "sciences": {
+        "title": "Sains Semula Jadi",
+        "desc": "Terokai idea sains melalui penerangan dan contoh yang jelas."
+      },
+      "business": {
+        "title": "Perniagaan & Ekonomi",
+        "desc": "Bina asas praktikal dalam perniagaan, ekonomi dan pemikiran profesional."
+      }
+    },
+    "spaceTitle": "Ruang pembelajaran anda",
+    "badgeTitle": "Direka untuk fokus",
+    "badgeText": "Fahami. Berlatih. Teruskan.",
+    "benefits": {
+      "expert": "Pembelajaran berpandu",
+      "pace": "Belajar mengikut rentak anda",
+      "multilingual": "4 bahasa antara muka"
+    },
+    "steps": {
+      "exploreTitle": "Teroka",
+      "exploreDesc": "Cari topik yang berguna",
+      "learnTitle": "Belajar",
+      "learnDesc": "Ikuti pelajaran fokus",
+      "practiceTitle": "Berlatih",
+      "practiceDesc": "Tukar konsep kepada tindakan",
+      "growTitle": "Maju",
+      "growDesc": "Semak, baiki dan teruskan"
+    },
+    "platformCta": "Lihat cara ia berfungsi",
+    "areasEyebrow": "Terokai laluan anda",
+    "areasTitle": "Belajar dalam bidang yang penting",
+    "areasDescription": "Bergerak antara teknologi, matematik, sains, perniagaan dan bahasa dengan struktur pembelajaran yang jelas.",
+    "methodEyebrow": "Rentak mudah",
+    "methodTitle": "Daripada rasa ingin tahu kepada latihan yakin",
+    "methodDescription": "Aliran empat langkah: teroka, belajar, berlatih, kemudian terus berkembang.",
+    "resourceEyebrow": "Teruskan belajar selepas pelajaran",
+    "resourceTitle": "Sumber pembelajaran apabila diperlukan",
+    "resourceDescription": "Lihat buku, nota dan bahan rujukan bersama kursus anda.",
+    "resourceCta": "Lihat sumber"
+  },
+  "publications": {
+    "title": "Penerbitan",
+    "subtitle": "Perpustakaan kursus merangkumi bidang akademik dan profesional utama.",
+    "readMore": "Baca Selanjutnya",
+    "allCategories": "Semua Kategori",
+    "loading": "Memuatkan...",
+    "empty": "Tiada penerbitan dalam bahagian ini.",
+    "error": "Ralat semasa memuatkan.",
+    "viewAll": "Lihat Semua",
+    "prev": "Sebelum",
+    "next": "Seterusnya"
+  },
+  "article": {
+    "publishedOn": "Diterbitkan Pada",
+    "author": "Pengarang",
+    "category": "Kategori",
+    "backToList": "Kembali ke Penerbitan",
+    "relatedTitle": "Artikel Berkaitan",
+    "readMore": "Baca lagi"
+  },
+  "about": {
+    "title": "Tentang Intellecta",
+    "subtitle": "Persekitaran pembelajaran fokus yang menjadikan kajian serius lebih mudah didekati.",
+    "bioTitle": "Belajar dengan tujuan",
+    "bio": "Intellecta dibina atas idea mudah: pembelajaran menjadi lebih berguna apabila penerangan jelas, latihan disengajakan dan sumber mudah dicapai semula.",
+    "pathTitle": "Apa yang boleh diterokai",
+    "path": "Mulakan dengan kursus tersusun, kukuhkan pemahaman melalui latihan dan gunakan sumber sokongan untuk mendalami butiran.",
+    "facts": {
+      "lineage": {
+        "label": "Pendekatan",
+        "value": "Penerangan jelas, aktiviti praktikal dan rentak pembelajaran yang konsisten."
+      },
+      "order": {
+        "label": "Bahasa",
+        "value": "Antara muka Arab, Inggeris, Perancis dan Melayu."
+      },
+      "speciality": {
+        "label": "Bidang",
+        "value": "Teknologi, matematik, sains, perniagaan dan bahasa."
+      },
+      "location": {
+        "label": "Pengalaman",
+        "value": "Antara muka bersih dan selesa untuk pembelajaran pada mana-mana skrin."
+      }
+    },
+    "galleryTitle": "Belajar dalam ruang yang lebih jelas"
+  },
+  "platform": {
+    "title": "Cara Intellecta Berfungsi",
+    "subtitle": "Aliran pembelajaran mudah yang menjadikan langkah seterusnya jelas.",
+    "bioTitle": "Dibina untuk kemajuan",
+    "bio": "Pilih bidang, buka kursus, belajar melalui bahagian fokus, berlatih dan kembali kepada sumber apabila anda mahu mendalami sesuatu.",
+    "facts": {
+      "lineage": {
+        "label": "01 — Teroka",
+        "value": "Semak bidang pembelajaran dan pilih kursus yang sesuai dengan matlamat anda."
+      },
+      "order": {
+        "label": "02 — Belajar",
+        "value": "Ikuti pelajaran tersusun mengikut rentak yang selesa."
+      },
+      "speciality": {
+        "label": "03 — Berlatih",
+        "value": "Gunakan latihan, projek dan sumber untuk mengukuhkan konsep."
+      },
+      "location": {
+        "label": "04 — Teruskan",
+        "value": "Semak kemajuan, dalami topik dan teruskan ke cabaran seterusnya."
+      }
+    },
+    "pathTitle": "Kitaran pembelajaran yang mudah",
+    "path": "Teroka → belajar idea utama → berlatih → semak kemajuan → teruskan dengan cabaran berguna seterusnya. Intellecta mengekalkan kitaran ini ringkas supaya fokus kekal pada pembelajaran."
+  },
+  "books": {
+    "title": "Sumber Pembelajaran",
+    "subtitle": "Buku rujukan, nota kuliah dan bahan yang boleh dimuat turun untuk pembelajaran kendiri.",
+    "pages": "halaman",
+    "download": "halaman",
+    "noDownload": "Muat Turun Sumber",
+    "loading": "Muat turun tidak tersedia",
+    "empty": "Memuatkan sumber...",
+    "error": "Tiada sumber tersedia buat masa ini."
+  },
+  "contact": {
+    "title": "Mari terus berhubung",
+    "subtitle": "Soalan, maklum balas atau idea?",
+    "infoTitle": "Hubungi kami",
+    "email": "hello@intellecta.academy",
+    "location": "Dalam talian — di mana sahaja anda belajar",
+    "sessions": "Untuk pertanyaan tentang kursus, sumber dan platform.",
+    "note": "Beritahu kami apa yang anda pelajari, kerjakan atau perkara yang boleh menjadikan Intellecta lebih baik.",
+    "form": {
+      "name": "Nama Penuh",
+      "namePh": "Nama anda",
+      "email": "Alamat E-mel",
+      "subject": "Bagaimana kami boleh membantu?",
+      "message": "Mesej",
+      "messagePh": "Tulis mesej anda...",
+      "send": "Hantar mesej",
+      "subjects": {
+        "tariqa": "Soalan kursus",
+        "ilmi": "Pertanyaan pembelajaran / akademik",
+        "wird": "Maklum balas platform",
+        "other": "Lain-lain"
+      }
+    },
+    "sent": "Mesej dihantar",
+    "sentSub": "Terima kasih — kami akan membalas tidak lama lagi.",
+    "error": "Sesuatu tidak berjaya. Sila cuba lagi.",
+    "sending": "Menghantar..."
+  },
+  "footer": {
+    "tagline": "Ruang pembelajaran moden untuk pemikiran jelas, latihan praktikal dan kemajuan konsisten.",
+    "copyright": "© 2026 Intellecta. Hak cipta terpelihara.",
+    "socialsTitle": "Hubungi",
+    "links": {
+      "home": "Laman Utama",
+      "publications": "Kursus",
+      "about": "Tentang",
+      "contact": "Hubungi",
+      "navLabel": "Teroka",
+      "platform": "Cara Ia Berfungsi"
+    }
+  },
+  "admin": {
+    "site": {
+      "title": "Intellecta",
+      "panel": "Pengurusan Pembelajaran"
+    },
+    "nav": {
+      "dashboard": "Papan Pemuka",
+      "publications": "Kursus",
+      "messages": "Mesej",
+      "books": "Sumber Pembelajaran",
+      "contact": "Hubungi Kami"
+    },
+    "categories": {
+      "courses": "Kursus",
+      "programming": "Pengaturcaraan",
+      "mathematics": "Matematik",
+      "sciences": "Sains Semula Jadi",
+      "business": "Perniagaan & Ekonomi",
+      "languages": "Bahasa"
+    },
+    "logout": {
+      "label": "Log Keluar",
+      "loading": "Sedang log keluar…"
+    },
+    "publications": {
+      "pageTitle": "Urus Kursus",
+      "total": "kursus",
+      "empty": "Tiada kursus ditambah lagi.",
+      "nav": "Kursus",
+      "table": {
+        "title": "Tajuk",
+        "author": "Penulis",
+        "date": "Tarikh Terbit",
+        "actions": "Tindakan"
+      },
+      "confirm": {
+        "delete": "Adakah anda pasti mahu memadam penerbitan ini?"
+      },
+      "modal": {
+        "addTitle": "Penerbitan Baharu",
+        "editTitle": "Kemaskini Penerbitan",
+        "fields": {
+          "author": "Penulis",
+          "authorPlaceholder": "Nama penulis",
+          "date": "Tarikh Terbit",
+          "translations": "Terjemahan",
+          "title": "Tajuk",
+          "titlePlaceholder": "Tajuk penerbitan",
+          "excerpt": "Petikan",
+          "excerptPlaceholder": "Ringkasan pendek...",
+          "content": "Kandungan",
+          "contentPlaceholder": "Teks penuh artikel..."
+        },
+        "errors": {
+          "noTranslations": "Sila lengkapkan sekurang-kurangnya satu terjemahan.",
+          "incompleteTranslation": "Terjemahan {locale} tidak lengkap — sila isi tajuk, petikan, dan kandungan.",
+          "saveFailed": "Gagal menyimpan. Sila cuba lagi.",
+          "networkError": "Ralat rangkaian. Sila cuba lagi."
+        }
+      }
+    },
+    "modal": {
+      "addTitle": "Penerbitan Baharu",
+      "editTitle": "Edit Penerbitan",
+      "cancel": "Batal",
+      "save": "Simpan",
+      "saveEdit": "Simpan Perubahan",
+      "saving": "Menyimpan…",
+      "markdown": {
+        "write": "Tulis",
+        "preview": "Pratonton",
+        "help": "Markdown disokong: tajuk, senarai, pautan, petikan, jadual dan blok kod.",
+        "emptyPreview": "Mula menulis untuk melihat pratonton."
+      },
+      "fields": {
+        "author": "Pengarang",
+        "authorPlaceholder": "Nama pengarang",
+        "date": "Tarikh Terbit",
+        "translations": "Terjemahan",
+        "fieldTitle": "Tajuk",
+        "titlePlaceholder": "Tajuk penerbitan",
+        "excerpt": "Petikan",
+        "excerptPlaceholder": "Ringkasan ringkas…",
+        "content": "Kandungan",
+        "contentPlaceholder": "Tulis kandungan artikel dalam Markdown…"
+      },
+      "locales": {
+        "ar": "العربية",
+        "en": "English",
+        "fr": "Français",
+        "ms": "Melayu"
+      },
+      "errors": {
+        "noTranslations": "Sila lengkapkan sekurang-kurangnya satu terjemahan.",
+        "incompleteTranslation": "Terjemahan {locale} tidak lengkap — sila isi tajuk, petikan dan kandungan.",
+        "saveFailed": "Gagal menyimpan. Sila cuba lagi.",
+        "networkError": "Ralat rangkaian. Sila cuba lagi."
+      }
+    },
+    "table": {
+      "title": "Tajuk",
+      "author": "Pengarang",
+      "published": "Tarikh Terbit",
+      "actions": "Tindakan",
+      "sender": "Penghantar",
+      "subject": "Subjek",
+      "date": "Tarikh"
+    },
+    "actions": {
+      "edit": "Edit",
+      "markRead": "Tandai dibaca",
+      "markUnread": "Tandai belum dibaca"
+    },
+    "filter": {
+      "all": "Semua",
+      "unread": "Belum dibaca",
+      "read": "Dibaca"
+    },
+    "contact": {
+      "pageTitle": "Butiran Mesej",
+      "name": "Nama",
+      "email": "E-mel",
+      "subject": "Subjek",
+      "language": "Bahasa",
+      "date": "Tarikh",
+      "message": "Mesej"
+    },
+    "confirm": {
+      "deletePublication": "Adakah anda pasti untuk meneruskan dengan penerbitan ini?",
+      "deleteMessage": "Adakah anda pasti untuk meneruskan dengan mesej ini?",
+      "action": "Sahkan",
+      "cancel": "Batal"
+    },
+    "books": {
+      "pageTitle": "Sumber Pembelajaran",
+      "total": "buku",
+      "empty": "Tiada buku yang ditambah lagi.",
+      "nav": "Buku",
+      "table": {
+        "year": "Tahun",
+        "pages": "Halaman"
+      },
+      "confirm": {
+        "delete": "Padam buku ini?"
+      },
+      "modal": {
+        "addTitle": "Tambah Buku Baharu",
+        "editTitle": "Edit Buku",
+        "fields": {
+          "title": "Tajuk Buku",
+          "titlePlaceholder": "Masukkan tajuk buku",
+          "author": "Pengarang",
+          "authorPlaceholder": "Nama pengarang",
+          "year": "Tahun Terbit",
+          "yearPlaceholder": "cth. 1445 H",
+          "pages": "Bilangan Halaman",
+          "pagesPlaceholder": "cth. 248",
+          "downloadUrl": "Pautan Muat Turun",
+          "description": "Keterangan Buku",
+          "descriptionPlaceholder": "Ringkasan ringkas buku…"
+        },
+        "errors": {
+          "titleRequired": "Sila masukkan tajuk buku.",
+          "saveFailed": "Gagal menyimpan. Sila cuba lagi.",
+          "networkError": "Ralat rangkaian. Sila cuba lagi."
+        }
+      }
+    },
+    "login": {
+      "title": "Intellecta",
+      "panel": "Panel Pentadbir",
+      "username": "Nama pengguna",
+      "password": "Kata laluan",
+      "submit": "Log masuk",
+      "submitting": "Sedang log masuk…",
+      "invalid": "Nama pengguna atau kata laluan salah.",
+      "generic": "Ralat berlaku, sila cuba lagi."
+    }
+  }
+}

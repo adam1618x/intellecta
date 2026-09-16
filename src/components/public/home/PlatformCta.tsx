@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { IconArrowUpRight, IconDeviceLaptop } from "@tabler/icons-react";
+interface Props { t:any; locale:string; }
+export default function PlatformCta({t,locale}:Props){return <section className="section-pad bg-white"><div className="section-shell"><div className="resource-cta"><div className="resource-icon"><IconDeviceLaptop size={25}/></div><div className="min-w-0 flex-1"><span className="section-kicker">{t("resourceEyebrow")}</span><h2 className="mt-2 font-display text-2xl font-extrabold text-slate-950">{t("resourceTitle")}</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">{t("resourceDescription")}</p></div><Link href={`/${locale}/resources`} className="shrink-0 rounded-2xl bg-blue-600 px-5 py-3.5 text-sm font-extrabold text-white shadow-lg shadow-blue-600/15 transition hover:-translate-y-0.5 hover:bg-blue-700">{t("resourceCta")}<IconArrowUpRight size={16} className="ms-2 inline"/></Link></div></div></section>}

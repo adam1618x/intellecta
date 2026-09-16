@@ -1,0 +1,385 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "books": "Ressources d’étude",
+    "publications": "Cours",
+    "about": "À propos",
+    "platform": "Comment ça marche",
+    "contact": "Contact",
+    "categories": {
+      "courses": "Cours",
+      "programming": "Programmation",
+      "mathematics": "Mathématiques",
+      "sciences": "Sciences naturelles",
+      "business": "Économie & gestion",
+      "languages": "Langues"
+    },
+    "language": "Langue"
+  },
+  "home": {
+    "bismillah": "Une meilleure façon d’apprendre",
+    "title": "Apprenez quelque chose d’utile. Puis mettez-le en pratique.",
+    "subtitle": "Un apprentissage structuré pour les esprits curieux.",
+    "description": "Intellecta réunit cours ciblés, pratique et ressources d’étude dans un espace moderne et serein — pensé pour progresser sans surcharge.",
+    "cta": "Explorer les cours",
+    "latestTitle": "Formations à la une",
+    "features": {
+      "programming": {
+        "title": "Programmation",
+        "desc": "Développez vos compétences techniques avec concepts, exemples et pratique."
+      },
+      "languages": {
+        "title": "Langues",
+        "desc": "Développez vos compétences linguistiques avec des parcours progressifs."
+      },
+      "courses": {
+        "title": "Cours structurés",
+        "desc": "Suivez des leçons ciblées pour transformer les idées en connaissances utiles."
+      },
+      "mathematics": {
+        "title": "Mathématiques",
+        "desc": "Renforcez votre raisonnement et votre résolution de problèmes."
+      },
+      "sciences": {
+        "title": "Sciences naturelles",
+        "desc": "Explorez les idées scientifiques avec des explications et exemples clairs."
+      },
+      "business": {
+        "title": "Économie & gestion",
+        "desc": "Construisez des bases pratiques en business et en réflexion professionnelle."
+      }
+    },
+    "spaceTitle": "Votre espace d’apprentissage",
+    "badgeTitle": "Pensé pour la concentration",
+    "badgeText": "Comprendre. Pratiquer. Continuer.",
+    "benefits": {
+      "expert": "Apprentissage guidé",
+      "pace": "À votre rythme",
+      "multilingual": "4 langues d’interface"
+    },
+    "steps": {
+      "exploreTitle": "Explorer",
+      "exploreDesc": "Trouvez un sujet utile",
+      "learnTitle": "Apprendre",
+      "learnDesc": "Suivez des leçons ciblées",
+      "practiceTitle": "Pratiquer",
+      "practiceDesc": "Passez des idées à l’action",
+      "growTitle": "Progresser",
+      "growDesc": "Révisez et continuez"
+    },
+    "platformCta": "Voir comment ça marche",
+    "areasEyebrow": "Choisissez votre parcours",
+    "areasTitle": "Apprendre dans les domaines qui comptent",
+    "areasDescription": "Passez de la technologie aux mathématiques, aux sciences, au business et aux langues avec une structure claire.",
+    "methodEyebrow": "Un rythme simple",
+    "methodTitle": "De la curiosité à la pratique maîtrisée",
+    "methodDescription": "Un parcours en quatre étapes : découvrir, comprendre, pratiquer, puis continuer à progresser.",
+    "resourceEyebrow": "Apprendre au-delà du cours",
+    "resourceTitle": "Des ressources d’étude à portée de main",
+    "resourceDescription": "Consultez livres, notes et références complémentaires avec vos cours.",
+    "resourceCta": "Voir les ressources"
+  },
+  "publications": {
+    "title": "Publications",
+    "subtitle": "Une bibliothèque de cours couvrant les principales matières académiques et professionnelles.",
+    "readMore": "Lire la suite",
+    "allCategories": "Toutes les catégories",
+    "loading": "Chargement...",
+    "empty": "Aucune publication dans cette section.",
+    "error": "Une erreur s'est produite.",
+    "viewAll": "Voir tout",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "article": {
+    "publishedOn": "Publié le",
+    "author": "Auteur",
+    "category": "Catégorie",
+    "backToList": "Retour aux publications",
+    "relatedTitle": "Articles connexes",
+    "readMore": "Lire la suite"
+  },
+  "about": {
+    "title": "À propos d’Intellecta",
+    "subtitle": "Un environnement d’apprentissage conçu pour rendre l’étude sérieuse plus accessible.",
+    "bioTitle": "Apprendre avec intention",
+    "bio": "Intellecta repose sur une idée simple : l’apprentissage devient plus utile lorsque les explications sont claires, la pratique intentionnelle et les ressources faciles à retrouver.",
+    "pathTitle": "Ce que vous pouvez explorer",
+    "path": "Commencez par un cours structuré, renforcez vos acquis par la pratique et utilisez les ressources complémentaires pour approfondir.",
+    "facts": {
+      "lineage": {
+        "label": "Approche",
+        "value": "Explications claires, activités pratiques et rythme régulier."
+      },
+      "order": {
+        "label": "Langues",
+        "value": "Interfaces en arabe, anglais, français et malais."
+      },
+      "speciality": {
+        "label": "Domaines",
+        "value": "Technologie, mathématiques, sciences, business et langues."
+      },
+      "location": {
+        "label": "Expérience",
+        "value": "Une interface claire et confortable sur tous les écrans."
+      }
+    },
+    "galleryTitle": "Apprendre dans un espace plus clair"
+  },
+  "platform": {
+    "title": "Comment fonctionne Intellecta",
+    "subtitle": "Un parcours simple qui rend la prochaine étape évidente.",
+    "bioTitle": "Conçu autour du progrès",
+    "bio": "Choisissez un domaine, ouvrez un cours, avancez par sections ciblées, pratiquez puis revenez aux ressources lorsque vous souhaitez approfondir.",
+    "facts": {
+      "lineage": {
+        "label": "01 — Découvrir",
+        "value": "Explorez les domaines et choisissez un cours adapté à votre objectif."
+      },
+      "order": {
+        "label": "02 — Apprendre",
+        "value": "Suivez des leçons structurées à votre rythme."
+      },
+      "speciality": {
+        "label": "03 — Pratiquer",
+        "value": "Utilisez exercices, projets et ressources pour consolider les notions."
+      },
+      "location": {
+        "label": "04 — Continuer",
+        "value": "Révisez, approfondissez et passez au prochain défi utile."
+      }
+    },
+    "pathTitle": "Une boucle d’apprentissage simple",
+    "path": "Découvrir → apprendre les idées clés → pratiquer → revoir ses progrès → continuer avec le prochain défi utile. Intellecta garde ce cycle simple pour laisser plus de place à l’apprentissage."
+  },
+  "books": {
+    "title": "Ressources d’étude",
+    "subtitle": "Livres de référence, notes de cours et supports téléchargeables pour l’étude autonome.",
+    "pages": "pages",
+    "download": "pages",
+    "noDownload": "Télécharger la ressource",
+    "loading": "Téléchargement indisponible",
+    "empty": "Chargement des ressources...",
+    "error": "Aucune ressource disponible pour le moment."
+  },
+  "contact": {
+    "title": "Restons en contact",
+    "subtitle": "Questions, retours ou idées ?",
+    "infoTitle": "Nous contacter",
+    "email": "hello@intellecta.academy",
+    "location": "En ligne — où que vous appreniez",
+    "sessions": "Pour toute question sur les cours, ressources ou la plateforme.",
+    "note": "Parlez-nous de votre objectif, de ce que vous apprenez ou de ce qui pourrait améliorer Intellecta.",
+    "form": {
+      "name": "Nom complet",
+      "namePh": "Votre nom",
+      "email": "Adresse e-mail",
+      "subject": "Comment pouvons-nous vous aider ?",
+      "message": "Message",
+      "messagePh": "Écrivez votre message...",
+      "send": "Envoyer",
+      "subjects": {
+        "tariqa": "Question sur un cours",
+        "ilmi": "Question d’apprentissage / académique",
+        "wird": "Retour sur la plateforme",
+        "other": "Autre"
+      }
+    },
+    "sent": "Message envoyé",
+    "sentSub": "Merci — nous vous répondrons bientôt.",
+    "error": "Une erreur est survenue. Réessayez.",
+    "sending": "Envoi..."
+  },
+  "footer": {
+    "tagline": "Un espace moderne pour apprendre clairement, pratiquer et progresser durablement.",
+    "copyright": "© 2026 Intellecta. Tous droits réservés.",
+    "socialsTitle": "Nous suivre",
+    "links": {
+      "home": "Accueil",
+      "publications": "Cours",
+      "about": "À propos",
+      "contact": "Contact",
+      "navLabel": "Explorer",
+      "platform": "Comment ça marche"
+    }
+  },
+  "admin": {
+    "site": {
+      "title": "Intellecta",
+      "panel": "Gestion des apprentissages"
+    },
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "publications": "Cours",
+      "messages": "Messages",
+      "books": "Ressources d’étude",
+      "contact": "Contact"
+    },
+    "categories": {
+      "courses": "Cours",
+      "programming": "Programmation",
+      "mathematics": "Mathématiques",
+      "sciences": "Sciences naturelles",
+      "business": "Économie & gestion",
+      "languages": "Langues"
+    },
+    "logout": {
+      "label": "Se déconnecter",
+      "loading": "Déconnexion en cours…"
+    },
+    "publications": {
+      "pageTitle": "Gérer les cours",
+      "total": "cours",
+      "empty": "Aucun cours n’a encore été ajouté.",
+      "nav": "Cours",
+      "table": {
+        "title": "Titre",
+        "author": "Auteur",
+        "date": "Date de publication",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "delete": "Êtes-vous sûr de vouloir supprimer cette publication ?"
+      },
+      "modal": {
+        "addTitle": "Nouvelle publication",
+        "editTitle": "Modifier la publication",
+        "fields": {
+          "author": "Auteur",
+          "authorPlaceholder": "Nom de l'auteur",
+          "date": "Date de publication",
+          "translations": "Traductions",
+          "title": "Titre",
+          "titlePlaceholder": "Titre de la publication",
+          "excerpt": "Extrait",
+          "excerptPlaceholder": "Court résumé...",
+          "content": "Contenu",
+          "contentPlaceholder": "Texte intégral de l'article..."
+        },
+        "errors": {
+          "noTranslations": "Veuillez compléter au moins une traduction.",
+          "incompleteTranslation": "La traduction en {locale} est incomplète — veuillez renseigner le titre, l'extrait et le contenu.",
+          "saveFailed": "Échec de l'enregistrement. Veuillez réessayer.",
+          "networkError": "Erreur réseau. Veuillez réessayer."
+        }
+      }
+    },
+    "modal": {
+      "addTitle": "Nouvelle publication",
+      "editTitle": "Modifier la publication",
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "saveEdit": "Enregistrer les modifications",
+      "saving": "Enregistrement…",
+      "markdown": {
+        "write": "Écrire",
+        "preview": "Aperçu",
+        "help": "Markdown accepté : titres, listes, liens, citations, tableaux et blocs de code.",
+        "emptyPreview": "Commencez à écrire pour afficher l’aperçu."
+      },
+      "fields": {
+        "author": "Auteur",
+        "authorPlaceholder": "Nom de l'auteur",
+        "date": "Date de publication",
+        "translations": "Traductions",
+        "fieldTitle": "Titre",
+        "titlePlaceholder": "Titre de la publication",
+        "excerpt": "Extrait",
+        "excerptPlaceholder": "Bref résumé…",
+        "content": "Contenu",
+        "contentPlaceholder": "Rédigez le contenu en Markdown…"
+      },
+      "locales": {
+        "ar": "العربية",
+        "en": "English",
+        "fr": "Français",
+        "ms": "Melayu"
+      },
+      "errors": {
+        "noTranslations": "Veuillez compléter au moins une traduction.",
+        "incompleteTranslation": "La traduction {locale} est incomplète — veuillez remplir le titre, l'extrait et le contenu.",
+        "saveFailed": "Échec de l'enregistrement. Veuillez réessayer.",
+        "networkError": "Erreur réseau. Veuillez réessayer."
+      }
+    },
+    "table": {
+      "title": "Titre",
+      "author": "Auteur",
+      "published": "Date de publication",
+      "actions": "Actions",
+      "sender": "Expéditeur",
+      "subject": "Sujet",
+      "date": "Date"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "markRead": "Marquer lu",
+      "markUnread": "Marquer non lu"
+    },
+    "filter": {
+      "all": "Tous",
+      "unread": "Non lues",
+      "read": "Lues"
+    },
+    "contact": {
+      "pageTitle": "Détails du message",
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "language": "Langue",
+      "date": "Date",
+      "message": "Message"
+    },
+    "confirm": {
+      "deletePublication": "Êtes-vous sûr de vouloir continuer avec cette publication ?",
+      "deleteMessage": "Êtes-vous sûr de vouloir continuer avec ce message ?",
+      "action": "Confirmer",
+      "cancel": "Annuler"
+    },
+    "books": {
+      "pageTitle": "Ressources d’étude",
+      "total": "livre(s)",
+      "empty": "Aucun livre n'a encore été ajouté.",
+      "nav": "Livres",
+      "table": {
+        "year": "Année",
+        "pages": "Pages"
+      },
+      "confirm": {
+        "delete": "Supprimer ce livre ?"
+      },
+      "modal": {
+        "addTitle": "Ajouter un nouveau livre",
+        "editTitle": "Modifier le livre",
+        "fields": {
+          "title": "Titre du livre",
+          "titlePlaceholder": "Entrez le titre du livre",
+          "author": "Auteur",
+          "authorPlaceholder": "Nom de l'auteur",
+          "year": "Année de publication",
+          "yearPlaceholder": "ex. 1445 H",
+          "pages": "Nombre de pages",
+          "pagesPlaceholder": "ex. 248",
+          "downloadUrl": "Lien de téléchargement",
+          "description": "Description du livre",
+          "descriptionPlaceholder": "Bref résumé du livre…"
+        },
+        "errors": {
+          "titleRequired": "Veuillez entrer un titre.",
+          "saveFailed": "Échec de l'enregistrement. Veuillez réessayer.",
+          "networkError": "Erreur réseau. Veuillez réessayer."
+        }
+      }
+    },
+    "login": {
+      "title": "Intellecta",
+      "panel": "Panneau d’administration",
+      "username": "Nom d’utilisateur",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "submitting": "Connexion en cours…",
+      "invalid": "Nom d’utilisateur ou mot de passe incorrect.",
+      "generic": "Une erreur est survenue, veuillez réessayer."
+    }
+  }
+}

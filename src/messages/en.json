@@ -1,0 +1,385 @@
+{
+  "nav": {
+    "home": "Home",
+    "books": "Study Resources",
+    "publications": "Courses",
+    "about": "About",
+    "platform": "How It Works",
+    "contact": "Contact",
+    "categories": {
+      "courses": "Courses",
+      "programming": "Programming",
+      "mathematics": "Mathematics",
+      "sciences": "Natural Sciences",
+      "business": "Business & Economics",
+      "languages": "Languages"
+    },
+    "language": "Language"
+  },
+  "home": {
+    "bismillah": "A better way to keep learning",
+    "title": "Learn something useful. Then put it to work.",
+    "subtitle": "Structured learning for curious minds.",
+    "description": "Intellecta brings focused courses, practical learning and study resources into one calm, modern space — built for steady progress, not information overload.",
+    "cta": "Explore courses",
+    "latestTitle": "Featured learning",
+    "features": {
+      "programming": {
+        "title": "Programming",
+        "desc": "Build technical confidence through concepts, examples and practical work."
+      },
+      "languages": {
+        "title": "Languages",
+        "desc": "Build language skills through clear, progressive learning pathways."
+      },
+      "courses": {
+        "title": "Structured Courses",
+        "desc": "Follow focused lessons designed to turn ideas into usable knowledge."
+      },
+      "mathematics": {
+        "title": "Mathematics",
+        "desc": "Strengthen reasoning and problem-solving with guided mathematical study."
+      },
+      "sciences": {
+        "title": "Natural Sciences",
+        "desc": "Explore scientific ideas through clear explanations and meaningful examples."
+      },
+      "business": {
+        "title": "Business & Economics",
+        "desc": "Develop practical foundations for business, economics and professional thinking."
+      }
+    },
+    "spaceTitle": "Your learning space",
+    "badgeTitle": "Designed for focus",
+    "badgeText": "Learn clearly. Practise often. Keep moving.",
+    "benefits": {
+      "expert": "Clear, guided learning",
+      "pace": "Learn at your pace",
+      "multilingual": "4 interface languages"
+    },
+    "steps": {
+      "exploreTitle": "Explore",
+      "exploreDesc": "Find a topic worth learning",
+      "learnTitle": "Learn",
+      "learnDesc": "Work through focused lessons",
+      "practiceTitle": "Practice",
+      "practiceDesc": "Turn concepts into action",
+      "growTitle": "Grow",
+      "growDesc": "Review, improve and continue"
+    },
+    "platformCta": "See how it works",
+    "areasEyebrow": "Explore your path",
+    "areasTitle": "Learn across the subjects that matter",
+    "areasDescription": "Move between technology, mathematics, sciences, business and languages without losing a clear learning structure.",
+    "methodEyebrow": "A simple rhythm",
+    "methodTitle": "From curiosity to confident practice",
+    "methodDescription": "A focused four-step flow keeps learning clear: discover the right topic, understand the ideas, practise them, then keep building.",
+    "resourceEyebrow": "Keep learning beyond the lesson",
+    "resourceTitle": "Study resources, ready when you need them",
+    "resourceDescription": "Browse supporting books, notes and reference material alongside your courses.",
+    "resourceCta": "Browse resources"
+  },
+  "publications": {
+    "title": "Publications",
+    "subtitle": "A comprehensive course library across core academic and professional subjects.",
+    "readMore": "Read More",
+    "allCategories": "All Categories",
+    "loading": "Loading...",
+    "empty": "No publications in this section yet.",
+    "error": "An error occurred while loading publications.",
+    "viewAll": "View All",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "article": {
+    "publishedOn": "Published On",
+    "author": "Author",
+    "category": "Category",
+    "backToList": "Back to Publications",
+    "relatedTitle": "Related Articles",
+    "readMore": "Read more"
+  },
+  "about": {
+    "title": "About Intellecta",
+    "subtitle": "A focused learning environment designed to make serious study feel approachable.",
+    "bioTitle": "Learning with purpose",
+    "bio": "Intellecta is built around a simple idea: learning becomes more useful when explanations are clear, practice is intentional, and resources are easy to return to. The platform brings these pieces together in one multilingual experience.",
+    "pathTitle": "What you can explore",
+    "path": "Start with a structured course, strengthen it with practical work, then use supporting resources to revisit the details. Intellecta is designed to give learners room to move from first questions to deeper understanding.",
+    "facts": {
+      "lineage": {
+        "label": "Approach",
+        "value": "Clear explanations, practical activities and a steady learning rhythm."
+      },
+      "order": {
+        "label": "Languages",
+        "value": "Arabic, English, French and Malay interfaces."
+      },
+      "speciality": {
+        "label": "Learning areas",
+        "value": "Technology, mathematics, sciences, business and languages."
+      },
+      "location": {
+        "label": "Experience",
+        "value": "A clean, focused interface designed for comfortable study on any screen."
+      }
+    },
+    "galleryTitle": "Learning, in a clearer space"
+  },
+  "platform": {
+    "title": "How Intellecta Works",
+    "subtitle": "A simple learning flow that keeps the next step obvious.",
+    "bioTitle": "Built around progress",
+    "bio": "Choose a subject, open a course, learn in focused sections, practise what you have learned, and return to resources when you want more depth. The experience is intentionally straightforward so the interface stays out of the way of the learning.",
+    "facts": {
+      "lineage": {
+        "label": "01 — Discover",
+        "value": "Browse learning areas and choose a course that matches your goal."
+      },
+      "order": {
+        "label": "02 — Learn",
+        "value": "Move through concise, structured lessons at a comfortable pace."
+      },
+      "speciality": {
+        "label": "03 — Practise",
+        "value": "Use exercises, projects and supporting material to reinforce ideas."
+      },
+      "location": {
+        "label": "04 — Continue",
+        "value": "Review what matters, explore deeper resources and keep building."
+      }
+    },
+    "pathTitle": "A learning loop that stays simple",
+    "path": "Discover a topic → learn the core ideas → practise them → review your progress → continue with the next useful challenge. Intellecta keeps this loop visible so learners can spend less energy navigating and more energy learning."
+  },
+  "books": {
+    "title": "Study Resources",
+    "subtitle": "Reference books, lecture notes, and downloadable materials for independent study.",
+    "pages": "Pages",
+    "download": "pages",
+    "noDownload": "Download Resource",
+    "loading": "Download unavailable",
+    "empty": "Loading resources...",
+    "error": "No resources are available yet."
+  },
+  "contact": {
+    "title": "Let’s keep the conversation going",
+    "subtitle": "Questions, feedback or ideas?",
+    "infoTitle": "Get in touch",
+    "email": "hello@intellecta.academy",
+    "location": "Online — available wherever you learn",
+    "sessions": "For course, resource and platform questions.",
+    "note": "Tell us what you are working on, what you are trying to learn, or what could make Intellecta better.",
+    "form": {
+      "name": "Full Name",
+      "namePh": "Your name",
+      "email": "Email Address",
+      "subject": "What can we help with?",
+      "message": "Message",
+      "messagePh": "Write your message...",
+      "send": "Send message",
+      "subjects": {
+        "tariqa": "Course question",
+        "ilmi": "Learning / academic inquiry",
+        "wird": "Platform feedback",
+        "other": "Other"
+      }
+    },
+    "sent": "Message sent",
+    "sentSub": "Thanks — we’ll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "tagline": "A modern learning space for clear thinking, practical study and steady progress.",
+    "copyright": "© 2026 Intellecta. All rights reserved.",
+    "socialsTitle": "Connect",
+    "links": {
+      "home": "Home",
+      "publications": "Courses",
+      "about": "About",
+      "contact": "Contact",
+      "navLabel": "Explore",
+      "platform": "How It Works"
+    }
+  },
+  "admin": {
+    "site": {
+      "title": "Intellecta",
+      "panel": "Learning Management"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "publications": "Courses",
+      "messages": "Messages",
+      "books": "Study Resources",
+      "contact": "Contact"
+    },
+    "categories": {
+      "courses": "Courses",
+      "programming": "Programming",
+      "mathematics": "Mathematics",
+      "sciences": "Natural Sciences",
+      "business": "Business & Economics",
+      "languages": "Languages"
+    },
+    "logout": {
+      "label": "Log Out",
+      "loading": "Logging out…"
+    },
+    "publications": {
+      "pageTitle": "Manage Courses",
+      "total": "courses",
+      "empty": "No courses have been added yet.",
+      "nav": "Courses",
+      "table": {
+        "title": "Title",
+        "author": "Author",
+        "date": "Publish Date",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "delete": "Are you sure you want to delete this publication?"
+      },
+      "modal": {
+        "addTitle": "New Publication",
+        "editTitle": "Edit Publication",
+        "fields": {
+          "author": "Author",
+          "authorPlaceholder": "Author's name",
+          "date": "Publish Date",
+          "translations": "Translations",
+          "title": "Title",
+          "titlePlaceholder": "Publication title",
+          "excerpt": "Excerpt",
+          "excerptPlaceholder": "Short summary...",
+          "content": "Content",
+          "contentPlaceholder": "Full text of the article..."
+        },
+        "errors": {
+          "noTranslations": "Please complete at least one translation.",
+          "incompleteTranslation": "{locale} translation is incomplete — please fill in the title, excerpt, and content.",
+          "saveFailed": "Save failed. Please try again.",
+          "networkError": "Network error. Please try again."
+        }
+      }
+    },
+    "modal": {
+      "addTitle": "New Publication",
+      "editTitle": "Edit Publication",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saveEdit": "Save Changes",
+      "saving": "Saving…",
+      "markdown": {
+        "write": "Write",
+        "preview": "Preview",
+        "help": "Markdown supported: headings, lists, links, quotes, tables, and code blocks.",
+        "emptyPreview": "Start writing to see the preview."
+      },
+      "fields": {
+        "author": "Author",
+        "authorPlaceholder": "Author name",
+        "date": "Publication Date",
+        "translations": "Translations",
+        "fieldTitle": "Title",
+        "titlePlaceholder": "Publication title",
+        "excerpt": "Excerpt",
+        "excerptPlaceholder": "Brief summary…",
+        "content": "Content",
+        "contentPlaceholder": "Write the article content in Markdown…"
+      },
+      "locales": {
+        "ar": "العربية",
+        "en": "English",
+        "fr": "Français",
+        "ms": "Melayu"
+      },
+      "errors": {
+        "noTranslations": "Please complete at least one translation.",
+        "incompleteTranslation": "The {locale} translation is incomplete — please fill in the title, excerpt, and content.",
+        "saveFailed": "Failed to save. Please try again.",
+        "networkError": "Network error. Please try again."
+      }
+    },
+    "table": {
+      "title": "Title",
+      "author": "Author",
+      "published": "Published",
+      "actions": "Actions",
+      "sender": "Sender",
+      "subject": "Subject",
+      "date": "Date"
+    },
+    "actions": {
+      "edit": "Edit",
+      "markRead": "Mark as read",
+      "markUnread": "Mark as unread"
+    },
+    "filter": {
+      "all": "All",
+      "unread": "Unread",
+      "read": "Read"
+    },
+    "contact": {
+      "pageTitle": "Message Details",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "language": "Language",
+      "date": "Date",
+      "message": "Message"
+    },
+    "confirm": {
+      "deletePublication": "Are you sure you want to proceed with this publication?",
+      "deleteMessage": "Are you sure you want to proceed with this message?",
+      "action": "Confirm",
+      "cancel": "Cancel"
+    },
+    "books": {
+      "pageTitle": "Study Resources",
+      "total": "book(s)",
+      "empty": "No books have been added yet.",
+      "nav": "Books",
+      "table": {
+        "year": "Year",
+        "pages": "Pages"
+      },
+      "confirm": {
+        "delete": "Delete this book?"
+      },
+      "modal": {
+        "addTitle": "Add New Book",
+        "editTitle": "Edit Book",
+        "fields": {
+          "title": "Book Title",
+          "titlePlaceholder": "Enter book title",
+          "author": "Author",
+          "authorPlaceholder": "Author name",
+          "year": "Publication Year",
+          "yearPlaceholder": "e.g. 1445 AH",
+          "pages": "Number of Pages",
+          "pagesPlaceholder": "e.g. 248",
+          "downloadUrl": "Download URL",
+          "description": "Book Description",
+          "descriptionPlaceholder": "Brief summary of the book…"
+        },
+        "errors": {
+          "titleRequired": "Please enter a book title.",
+          "saveFailed": "Failed to save. Please try again.",
+          "networkError": "Network error. Please try again."
+        }
+      }
+    },
+    "login": {
+      "title": "Intellecta",
+      "panel": "Admin Panel",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "invalid": "Incorrect username or password.",
+      "generic": "Something went wrong, please try again."
+    }
+  }
+}

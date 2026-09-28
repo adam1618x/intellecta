@@ -181,10 +181,10 @@ async function main() {
   const adminPassword = process.env.SEED_ADMIN_PASSWORD ?? "ChangeMe123!";
 
   const passwordHash = await bcrypt.hash(adminPassword, 12);
-  await prisma.admin.upsert({
+  await prisma.user.upsert({
     where: { username: adminUsername },
     update: { password: passwordHash },
-    create: { username: adminUsername, password: passwordHash },
+    create: { username: adminUsername, password: passwordHash,role: "ADMIN" },
   });
 
   for (const item of publications) {

@@ -1,4 +1,67 @@
 import { getTranslations } from "next-intl/server";
-import { IconArrowDown, IconBook2, IconCheck, IconCompass, IconRefresh } from "@tabler/icons-react";
-const FACTS=["lineage","order","speciality","location"] as const; const ICONS=[IconCompass,IconBook2,IconCheck,IconRefresh];
-export default async function PlatformPage(){const t=await getTranslations("platform");return <div><header className="page-hero"><div className="page-hero-inner"><span className="eyebrow eyebrow-white">{t("bioTitle")}</span><h1 className="mt-5">{t("title")}</h1><p>{t("subtitle")}</p></div></header><main className="section-shell section-pad"><div className="max-w-3xl"><span className="section-kicker">{t("bioTitle")}</span><h2 className="section-title">{t("bioTitle")}</h2><p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">{t("bio")}</p></div><div className="mt-12 grid gap-4 sm:grid-cols-2">{FACTS.map((key,i)=>{const Icon=ICONS[i];return <article key={key} className="info-card"><div className="flex items-center justify-between"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-blue-600"><Icon size={20}/></span><span className="text-xs font-black text-blue-200">0{i+1}</span></div><h3 className="mt-6 font-display text-lg font-extrabold text-slate-950">{t(`facts.${key}.label`)}</h3><p className="mt-2 text-sm leading-7 text-slate-600">{t(`facts.${key}.value`)}</p></article>})}</div><div className="mt-14 overflow-hidden rounded-[2rem] bg-slate-950 p-6 text-white sm:p-9"><div className="flex items-center gap-2 text-blue-300"><IconArrowDown size={18}/><span className="text-xs font-extrabold uppercase tracking-widest">{t("pathTitle")}</span></div><p className="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">{t("path")}</p></div></main></div>}
+import {
+  IconArrowDown,
+  IconBook2,
+  IconCheck,
+  IconCompass,
+  IconRefresh,
+} from "@tabler/icons-react";
+const FACTS = ["lineage", "order", "speciality", "location"] as const;
+const ICONS = [IconCompass, IconBook2, IconCheck, IconRefresh];
+export default async function PlatformPage() {
+  const t = await getTranslations("platform");
+  return (
+    <div>
+      <header className="page-hero">
+        <div className="page-hero-inner">
+          <span className="eyebrow eyebrow-white">{t("bioTitle")}</span>
+          <h1 className="mt-5">{t("title")}</h1>
+          <p>{t("subtitle")}</p>
+        </div>
+      </header>
+      <main className="section-shell section-pad">
+        <div className="max-w-3xl">
+          <span className="section-kicker">{t("bioTitle")}</span>
+          <h2 className="section-title">{t("bioTitle")}</h2>
+          <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">
+            {t("bio")}
+          </p>
+        </div>
+        <div className="mt-12 grid gap-4 sm:grid-cols-2">
+          {FACTS.map((key, i) => {
+            const Icon = ICONS[i];
+            return (
+              <article key={key} className="info-card">
+                <div className="flex items-center justify-between">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+                    <Icon size={20} />
+                  </span>
+                  <span className="text-xs font-black text-blue-200">
+                    0{i + 1}
+                  </span>
+                </div>
+                <h3 className="mt-6 font-display text-lg font-extrabold text-slate-950">
+                  {t(`facts.${key}.label`)}
+                </h3>
+                <p className="mt-2 text-sm leading-7 text-slate-600">
+                  {t(`facts.${key}.value`)}
+                </p>
+              </article>
+            );
+          })}
+        </div>
+        <div className="mt-14 overflow-hidden rounded-[2rem] bg-slate-950 p-6 text-white sm:p-9">
+          <div className="flex items-center gap-2 text-blue-300">
+            <IconArrowDown size={18} />
+            <span className="text-xs font-extrabold uppercase tracking-widest">
+              {t("pathTitle")}
+            </span>
+          </div>
+          <p className="mt-5 max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+            {t("path")}
+          </p>
+        </div>
+      </main>
+    </div>
+  );
+}

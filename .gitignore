@@ -56,3 +56,6 @@ temp/
 # Misc
 *.swp
 *.swo
+
+# Costum files
+.notes.txt

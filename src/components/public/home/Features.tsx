@@ -11,16 +11,27 @@ const FEATURES = [
 ] as const;
 
 interface Props { t: any; locale: string; }
+
 export default function FeaturesSection({ t, locale }: Props) {
   return (
-    <section className="section-pad section-muted">
+    <section className="bg-white py-24 sm:py-28 lg:py-32">
       <div className="section-shell">
-        <div className="section-heading-row">
-          <div><span className="section-kicker">{t("areasEyebrow")}</span><h2 className="section-title">{t("areasTitle")}</h2></div>
-          <p className="section-lead">{t("areasDescription")}</p>
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="section-kicker">{t("areasEyebrow")}</span>
+          <h2 className="section-title mt-4">{t("areasTitle")}</h2>
+          <p className="mt-5 text-base leading-8 text-slate-500">{t("areasDescription")}</p>
         </div>
-        <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map(({ key, slug, Icon }) => <FeatureCard key={key} href={`/${locale}/courses/${slug}`} title={t(`features.${key}.title`)} description={t(`features.${key}.desc`)} Icon={Icon} />)}
+
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {FEATURES.map(({ key, slug, Icon }) => (
+            <FeatureCard
+              key={key}
+              href={`/${locale}/courses/${slug}`}
+              title={t(`features.${key}.title`)}
+              description={t(`features.${key}.desc`)}
+              Icon={Icon}
+            />
+          ))}
         </div>
       </div>
     </section>

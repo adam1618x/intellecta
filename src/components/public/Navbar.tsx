@@ -79,8 +79,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-7xl rounded-2xl border border-slate-200/80 bg-white/90 shadow-[0_14px_45px_rgba(15,52,96,.10)] backdrop-blur-xl">
         <div className="flex h-[68px] items-center justify-between gap-4 px-3 sm:px-5">
           <Link href={`/${locale}`} aria-label="Intellecta" onClick={() => setOpen(false)} className="shrink-0">
-            <LogoWide className="hidden h-8 w-auto sm:block" aria-hidden="true" />
-            <LogoCircle className="h-10 w-10 sm:hidden" aria-hidden="true" />
+            <LogoWide className="block h-auto  sm:h-8 sm:w-auto" aria-hidden="true" />
           </Link>
 
           <div className="hidden items-center gap-1 md:flex">
@@ -112,7 +111,7 @@ export default function Navbar() {
           </div>
 
           <button type="button" className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 md:hidden" onClick={() => setOpen((v) => !v)} aria-label="Toggle navigation" aria-expanded={open}>
-            {open ? <IconX size={22} /> : <IconMenu2 size={22} />}
+            {open ? <IconX className="cursor-pointer" size={22} /> : <IconMenu2 className="cursor-pointer" size={22} />}
           </button>
         </div>
 
@@ -129,7 +128,7 @@ export default function Navbar() {
               <div className="flex items-center gap-2 px-3 py-2 text-xs font-bold uppercase tracking-wider text-slate-400"><IconLanguage size={15} />{t("language")}</div>
               <div className="grid grid-cols-2 gap-1">
                 {LOCALES.map((item) => (
-                  <button key={item.code} onClick={() => switchLocale(item.code)} className={`rounded-xl px-3 py-2.5 text-sm font-semibold ${item.code === locale ? "bg-white text-blue-700 shadow-sm" : "text-slate-600"}`}>{item.label}</button>
+                  <button key={item.code} onClick={() => switchLocale(item.code)} className={`rounded-xl px-3 py-2.5 text-sm font-semibold cursor-pointer ${item.code === locale ? "bg-white text-blue-700 shadow-sm" : "text-slate-600"}`}>{item.label}</button>
                 ))}
               </div>
             </div>

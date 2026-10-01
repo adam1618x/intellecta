@@ -14,7 +14,7 @@ export default function HeroSection({ t, locale }: Props) {
   ];
 
   return (
-    <section className="relative overflow-hidden px-4 pb-16 pt-16 sm:px-6 sm:pb-24 sm:pt-20 lg:pt-24">
+    <section className="relative flex min-h-[calc(100svh-72px)] flex-col justify-center overflow-hidden px-4 pb-16 pt-16 sm:px-6 sm:pb-24 sm:pt-20 lg:pt-24">
       <style>{`
         @keyframes hero-float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
         @keyframes hero-spin { to { transform: rotate(360deg) } }

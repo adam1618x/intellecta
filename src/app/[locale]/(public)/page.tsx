@@ -50,7 +50,7 @@ export default async function HomePage() {
     );
 
     return (
-        <main dir={locale === "ar" ? "rtl" : "ltr"} className="min-h-screen bg-cream">
+        <main dir={locale === "ar" ? "rtl" : "ltr"} className="flex min-h-screen flex-col bg-cream">
             <HeroSection locale={locale} t={t} />
             <FeaturesSection locale={locale} t={t} />
             <HowItWorks locale={locale} t={t} />

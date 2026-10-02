@@ -1,5 +1,51 @@
 {
+  "auth": {
+    "common": {
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور"
+    },
+    "login": {
+      "heading": "مرحبًا بعودتك",
+      "lead": "سجّل الدخول لمتابعة رحلتك التعليمية.",
+      "username": "اسم المستخدم",
+      "usernamePlaceholder": "اسم المستخدم الخاص بك",
+      "usernameRequired": "أدخل اسم المستخدم.",
+      "password": "كلمة المرور",
+      "passwordRequired": "أدخل كلمة المرور.",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول"
+    },
+    "signup": {
+      "heading": "إنشاء حساب",
+      "lead": "انضم إلينا وابدأ رحلتك التعليمية.",
+      "username": "اسم المستخدم",
+      "usernamePlaceholder": "اسم المستخدم الخاص بك",
+      "usernameRequired": "اختر اسم مستخدم.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "emailInvalid": "أدخل بريدًا إلكترونيًا صالحًا.",
+      "password": "كلمة المرور",
+      "passwordTooShort": "استخدم 8 أحرف على الأقل.",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+      "termsPrefix": "أوافق على",
+      "termsLink": "شروط الخدمة",
+      "termsAnd": "و",
+      "privacyLink": "سياسة الخصوصية",
+      "termsRequired": "يجب الموافقة على الشروط للمتابعة.",
+      "submit": "إنشاء حساب"
+    },
+    "overlay": {
+      "loginTitle": "هل لديك حساب بالفعل؟",
+      "loginLead": "سجّل الدخول وتابع من حيث توقفت.",
+      "loginButton": "تسجيل الدخول",
+      "signupTitle": "جديد هنا؟",
+      "signupLead": "أنشئ حسابًا وابدأ التعلم اليوم.",
+      "signupButton": "إنشاء حساب"
+    }
+  },
   "nav": {
+    "login": "تسجيل الدخول",
     "home": "الرئيسية",
     "books": "موارد الدراسة",
     "publications": "الدورات",

@@ -1,5 +1,51 @@
 {
+  "auth": {
+    "common": {
+      "showPassword": "Tunjukkan kata laluan",
+      "hidePassword": "Sembunyikan kata laluan"
+    },
+    "login": {
+      "heading": "Selamat kembali",
+      "lead": "Log masuk untuk teruskan perjalanan anda.",
+      "username": "Nama pengguna",
+      "usernamePlaceholder": "nama pengguna anda",
+      "usernameRequired": "Masukkan nama pengguna anda.",
+      "password": "Kata laluan",
+      "passwordRequired": "Masukkan kata laluan anda.",
+      "forgotPassword": "Lupa kata laluan?",
+      "submit": "Log masuk"
+    },
+    "signup": {
+      "heading": "Cipta akaun",
+      "lead": "Sertai kami dan mulakan perjalanan anda.",
+      "username": "Nama pengguna",
+      "usernamePlaceholder": "nama pengguna anda",
+      "usernameRequired": "Pilih nama pengguna.",
+      "email": "Emel",
+      "emailPlaceholder": "anda@contoh.com",
+      "emailInvalid": "Masukkan alamat emel yang sah.",
+      "password": "Kata laluan",
+      "passwordTooShort": "Gunakan sekurang-kurangnya 8 aksara.",
+      "confirmPassword": "Sahkan kata laluan",
+      "passwordMismatch": "Kata laluan tidak sepadan.",
+      "termsPrefix": "Saya bersetuju dengan",
+      "termsLink": "Terma Perkhidmatan",
+      "termsAnd": "dan",
+      "privacyLink": "Dasar Privasi",
+      "termsRequired": "Anda mesti bersetuju dengan terma untuk teruskan.",
+      "submit": "Daftar"
+    },
+    "overlay": {
+      "loginTitle": "Sudah ada akaun?",
+      "loginLead": "Log masuk dan sambung dari tempat anda berhenti.",
+      "loginButton": "Log masuk",
+      "signupTitle": "Baru di sini?",
+      "signupLead": "Cipta akaun dan mula belajar hari ini.",
+      "signupButton": "Cipta akaun"
+    }
+  },
   "nav": {
+    "login": "Sambungan",
     "home": "Laman Utama",
     "books": "Sumber Pembelajaran",
     "publications": "Kursus",

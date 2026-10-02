@@ -15,6 +15,7 @@ import {
   IconMail,
   IconMenu2,
   IconX,
+  IconLogin,
 } from "@tabler/icons-react";
 import LogoWide from "@/assets/wide-logo.svg";
 import LogoCircle from "@/assets/circle-logo.svg";
@@ -107,7 +108,10 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <Link href={`/${locale}/courses/courses`} className="nav-cta">{t("publications")}</Link>
+            <Link href={`/${locale}/login`} className="nav-cta flex items-center gap-1.5">
+              <IconLogin size={16} />
+              {t("login")}
+            </Link>
           </div>
 
           <button type="button" className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 md:hidden" onClick={() => setOpen((v) => !v)} aria-label="Toggle navigation" aria-expanded={open}>
@@ -123,6 +127,7 @@ export default function Navbar() {
                   <Icon size={18} />{t(key)}
                 </Link>
               ))}
+              
             </div>
             <div className="mt-3 rounded-2xl bg-slate-50 p-2">
               <div className="flex items-center gap-2 px-3 py-2 text-xs font-bold uppercase tracking-wider text-slate-400"><IconLanguage size={15} />{t("language")}</div>

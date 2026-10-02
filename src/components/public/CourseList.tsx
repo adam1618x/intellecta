@@ -14,6 +14,7 @@ const LIMIT = 10;
 
 interface Props {
     categoryKey: CategoryKey;
+    categoryLabel: string;
     categorySlug: string;
     locale: string;
     page: number;
@@ -21,6 +22,7 @@ interface Props {
 
 export default async function PublicationsList({
     categoryKey,
+    categoryLabel,
     categorySlug,
     locale,
     page,
@@ -81,8 +83,16 @@ export default async function PublicationsList({
                                 href={`/${locale}/courses/${categorySlug}/${pub.id}`}
                                 title={pub.title}
                                 excerpt={pub.excerpt}
+                                categoryKey={categoryKey}
+                                categoryLabel={categoryLabel}
                                 author={pub.author}
                                 readMore={t("readMore")}
+                                image={pub.image}
+                                imageAlt={pub.title}
+                                enrolled={pub.enrolled}
+                                completed={pub.completed}
+                                enrolledLabel={t("enrolled")}
+                                completedLabel={t("completed")}
                             />
                         ))}
                     </div>

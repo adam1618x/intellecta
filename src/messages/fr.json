@@ -89,7 +89,9 @@
     "error": "Une erreur s'est produite.",
     "viewAll": "Voir tout",
     "prev": "Précédent",
-    "next": "Suivant"
+    "next": "Suivant",
+    "enrolled": "inscrits",
+    "completed": "diplômés"
   },
   "article": {
     "publishedOn": "Publié le",

@@ -1,5 +1,51 @@
 {
+  "auth": {
+    "common": {
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe"
+    },
+    "login": {
+      "heading": "Content de vous revoir",
+      "lead": "Connectez-vous pour continuer votre parcours.",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "votre nom d'utilisateur",
+      "usernameRequired": "Entrez votre nom d'utilisateur.",
+      "password": "Mot de passe",
+      "passwordRequired": "Entrez votre mot de passe.",
+      "forgotPassword": "Mot de passe oublié ?",
+      "submit": "Se connecter"
+    },
+    "signup": {
+      "heading": "Créer un compte",
+      "lead": "Rejoignez-nous et commencez votre parcours.",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "votre nom d'utilisateur",
+      "usernameRequired": "Choisissez un nom d'utilisateur.",
+      "email": "Email",
+      "emailPlaceholder": "vous@exemple.com",
+      "emailInvalid": "Entrez une adresse email valide.",
+      "password": "Mot de passe",
+      "passwordTooShort": "Utilisez au moins 8 caractères.",
+      "confirmPassword": "Confirmer le mot de passe",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "termsPrefix": "J'accepte les",
+      "termsLink": "Conditions d'utilisation",
+      "termsAnd": "et la",
+      "privacyLink": "Politique de confidentialité",
+      "termsRequired": "Vous devez accepter les conditions pour continuer.",
+      "submit": "S'inscrire"
+    },
+    "overlay": {
+      "loginTitle": "Vous avez déjà un compte ?",
+      "loginLead": "Connectez-vous et reprenez où vous en étiez.",
+      "loginButton": "Se connecter",
+      "signupTitle": "Nouveau ici ?",
+      "signupLead": "Créez un compte et commencez à apprendre dès aujourd'hui.",
+      "signupButton": "Créer un compte"
+    }
+  },
   "nav": {
+    "login": "Connexion",
     "home": "Accueil",
     "books": "Ressources d’étude",
     "publications": "Cours",

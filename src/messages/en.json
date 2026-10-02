@@ -1,5 +1,51 @@
 {
+  "auth": {
+    "common": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "login": {
+      "heading": "Welcome back",
+      "lead": "Sign in to continue your journey.",
+      "username": "Username",
+      "usernamePlaceholder": "your username",
+      "usernameRequired": "Enter your username.",
+      "password": "Password",
+      "passwordRequired": "Enter your password.",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in"
+    },
+    "signup": {
+      "heading": "Create account",
+      "lead": "Join us and start your journey.",
+      "username": "Username",
+      "usernamePlaceholder": "your username",
+      "usernameRequired": "Choose a username.",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "emailInvalid": "Enter a valid email address.",
+      "password": "Password",
+      "passwordTooShort": "Use at least 8 characters.",
+      "confirmPassword": "Confirm password",
+      "passwordMismatch": "Passwords don't match.",
+      "termsPrefix": "I agree to the",
+      "termsLink": "Terms of Service",
+      "termsAnd": "and",
+      "privacyLink": "Privacy Policy",
+      "termsRequired": "You must accept the terms to continue.",
+      "submit": "Register"
+    },
+    "overlay": {
+      "loginTitle": "Already have an account?",
+      "loginLead": "Sign in and continue where you left off.",
+      "loginButton": "Sign in",
+      "signupTitle": "New here?",
+      "signupLead": "Create an account and start learning today.",
+      "signupButton": "Create account"
+    }
+  },
   "nav": {
+    "login": "Login",
     "home": "Home",
     "books": "Study Resources",
     "publications": "Courses",

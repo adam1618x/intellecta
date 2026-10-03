@@ -80,6 +80,9 @@ export const listPublicationsByCategory = unstable_cache(
             category: pub.category,
             author: pub.author,
             publishedAt: pub.publishedAt,
+            image: pub.image,
+            enrolled: pub.enrolled,
+            completed: pub.completed,
             title: (
                 pub.translations.find((translation) => translation.locale === locale) ??
                 pub.translations.find((translation) => translation.locale === "en") ??

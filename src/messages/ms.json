@@ -89,7 +89,9 @@
     "error": "Ralat semasa memuatkan.",
     "viewAll": "Lihat Semua",
     "prev": "Sebelum",
-    "next": "Seterusnya"
+    "next": "Seterusnya",
+    "enrolled": "mendaftar",
+    "completed": "tamat"
   },
   "article": {
     "publishedOn": "Diterbitkan Pada",

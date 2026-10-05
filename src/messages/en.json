@@ -89,7 +89,9 @@
     "error": "An error occurred while loading publications.",
     "viewAll": "View All",
     "prev": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "enrolled": "enrolled",
+    "completed": "completed"
   },
   "article": {
     "publishedOn": "Published On",

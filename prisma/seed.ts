@@ -21,6 +21,9 @@ type SeedPublication = {
   category: "courses" | "programming" | "mathematics" | "sciences" | "business" | "languages";
   author: string;
   publishedAt: string;
+  image?: string;
+  enrolled?: number;
+  completed?: number;
   translations: Translation[];
 };
 

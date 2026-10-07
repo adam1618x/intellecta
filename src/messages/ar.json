@@ -2,7 +2,9 @@
   "auth": {
     "common": {
       "showPassword": "إظهار كلمة المرور",
-      "hidePassword": "إخفاء كلمة المرور"
+      "hidePassword": "إخفاء كلمة المرور",
+      "close": "إغلاق",
+      "dialogLabel": "تسجيل الدخول أو إنشاء حساب"
     },
     "login": {
       "heading": "مرحبًا بعودتك",

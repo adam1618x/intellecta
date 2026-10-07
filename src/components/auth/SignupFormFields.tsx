@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import PasswordField from "./PasswordField";
 
-export default function SignupFormFields({ locale }: { locale: string }) {
+export default function SignupFormFields({ locale, onSuccess }: { locale: string; onSuccess?: () => void }) {
   const t = useTranslations("auth.signup");
   const tc = useTranslations("auth.common");
   const uid = useId();
@@ -27,7 +27,8 @@ export default function SignupFormFields({ locale }: { locale: string }) {
     setErrors(next);
     if (Object.keys(next).length) return;
 
-    // TODO: POST /api/auth/signup once feat/20-auth-user-model is merged.
+    // TODO: POST /api/auth/signup (backend géré à part).
+    // Quand la réponse est OK, appeler : onSuccess?.();
   }
 
   return (
@@ -37,11 +38,11 @@ export default function SignupFormFields({ locale }: { locale: string }) {
 
       <form onSubmit={handleSubmit} noValidate className="mt-7 space-y-4">
         <div>
-          <label htmlFor={`${uid}-email`} className="mb-1.5 block text-sm font-semibold text-[var(--ink)]">
+          <label htmlFor={`${uid}-username`} className="mb-1.5 block text-sm font-semibold text-[var(--ink)]">
             {t("username")}
           </label>
           <input
-            id={`${uid}-username`} 
+            id={`${uid}-username`}
             name="username"
             type="text"
             autoComplete="username"

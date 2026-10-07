@@ -2,7 +2,9 @@
   "auth": {
     "common": {
       "showPassword": "Show password",
-      "hidePassword": "Hide password"
+      "hidePassword": "Hide password",
+      "close": "Close",
+      "dialogLabel": "Log in or sign up"
     },
     "login": {
       "heading": "Welcome back",

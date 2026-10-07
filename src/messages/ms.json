@@ -2,7 +2,9 @@
   "auth": {
     "common": {
       "showPassword": "Tunjukkan kata laluan",
-      "hidePassword": "Sembunyikan kata laluan"
+      "hidePassword": "Sembunyikan kata laluan",
+      "close": "Tutup",
+      "dialogLabel": "Log masuk atau daftar"
     },
     "login": {
       "heading": "Selamat kembali",

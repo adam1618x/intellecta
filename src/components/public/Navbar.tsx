@@ -1,5 +1,5 @@
 "use client";
-
+import { useAuthModal } from "@/components/auth/AuthModalContext";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
@@ -37,6 +37,7 @@ const LINKS = [
 ] as const;
 
 export default function Navbar() {
+  const { openAuthModal } = useAuthModal();
   const t = useTranslations("nav");
   const locale = useLocale();
   const pathname = usePathname();
@@ -108,10 +109,10 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <Link href={`/${locale}/login`} className="nav-cta flex items-center gap-1.5">
+            <button type="button" onClick={() => openAuthModal("login")} className="nav-cta flex cursor-pointer items-center gap-1.5">
               <IconLogin size={16} />
               {t("login")}
-            </Link>
+            </button>
           </div>
 
           <button type="button" className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 md:hidden" onClick={() => setOpen((v) => !v)} aria-label="Toggle navigation" aria-expanded={open}>
@@ -127,7 +128,15 @@ export default function Navbar() {
                   <Icon size={18} />{t(key)}
                 </Link>
               ))}
-              
+              <button
+                type="button"
+                onClick={() => { setOpen(false); openAuthModal("login"); }}
+                className="nav-cta mt-2 flex w-full cursor-pointer items-center justify-center gap-1.5 py-3.5"
+              >
+                <IconLogin size={16} />
+                {t("login")}
+              </button>
+
             </div>
             <div className="mt-3 rounded-2xl bg-slate-50 p-2">
               <div className="flex items-center gap-2 px-3 py-2 text-xs font-bold uppercase tracking-wider text-slate-400"><IconLanguage size={15} />{t("language")}</div>

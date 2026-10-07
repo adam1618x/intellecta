@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import PasswordField from "./PasswordField";
 
-export default function LoginFormFields({ locale }: { locale: string }) {
+export default function LoginFormFields({ locale, onSuccess }: { locale: string; onSuccess?: () => void }) {
   const t = useTranslations("auth.login");
   const tc = useTranslations("auth.common");
   const uid = useId();
@@ -20,7 +20,7 @@ export default function LoginFormFields({ locale }: { locale: string }) {
     if (!password) next.password = t("passwordRequired");
     setErrors(next);
     if (Object.keys(next).length) return;
-
+    
     // TODO: POST /api/auth/login once feat/20-auth-user-model is merged.
   }
 

@@ -2,7 +2,9 @@
   "auth": {
     "common": {
       "showPassword": "Afficher le mot de passe",
-      "hidePassword": "Masquer le mot de passe"
+      "hidePassword": "Masquer le mot de passe",
+      "close": "Fermer",
+      "dialogLabel": "Connexion et inscription"
     },
     "login": {
       "heading": "Content de vous revoir",

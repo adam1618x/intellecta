@@ -1,5 +1,5 @@
-import AuthCard from "@/components/auth/AuthCard";
-
+// (public)/login/page.tsx
+import AuthPageShell from "@/components/auth/AuthPageShell";
 export default function LoginPage() {
-  return <AuthCard initialMode="login" />;
+  return <AuthPageShell initialMode="login" />;
 }

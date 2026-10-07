@@ -206,3 +206,14 @@ input[type="password"]::-ms-clear { display: none; }
   .auth-card-mobile{padding:1.75rem 1.25rem;border-radius:1.5rem}
 }
 @media(max-width:767px){.auth-wrap{--nav-h:5rem}}
+
+/* === Auth modal === */
+.auth-modal-backdrop{position:fixed;inset:0;z-index:100;background:rgba(247,250,255,.55);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:auth-modal-fade .25s ease-out}
+/* margin:auto sur le dialog = centré, et jamais coupé en haut quand ça dépasse (clavier mobile) */
+.auth-modal-scroll{position:absolute;inset:0;display:flex;overflow-y:auto;overscroll-behavior:contain;padding:1rem}
+.auth-modal-dialog{position:relative;margin:auto;width:100%;max-width:860px;outline:none}
+.auth-modal-close{position:absolute;top:.75rem;inset-inline-end:.75rem;z-index:20;display:flex;height:40px;width:40px;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:999px;background:#fff;color:var(--blue);box-shadow:0 6px 18px rgba(11,54,110,.14);cursor:pointer;transition:background .2s}
+.auth-modal-close:hover{background:var(--blue-pale)}
+.auth-modal-dialog .auth-card-mobile{margin-inline:auto;padding-top:3.5rem}
+@media(max-width:899px){.auth-modal-dialog{max-width:420px}}
+@keyframes auth-modal-fade{from{opacity:0}to{opacity:1}}

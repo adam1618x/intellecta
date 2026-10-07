@@ -3,6 +3,7 @@ import { useState, FormEvent, useRef, useEffect } from "react";
 import { useRouter, useSearchParams, useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { IconLanguage, IconCheck, IconChevronDown } from "@tabler/icons-react";
+import ParticleNetwork from "@/components/auth/ParticleNetwork";
 
 const LOCALES = [
     { code: "ar", label: "العربية" },
@@ -44,6 +45,7 @@ export default function AdminLoginPage() {
     }
 
     async function handleSubmit(e: FormEvent) {
+        console.log("handleSubmit called");
         e.preventDefault();
         setError(null);
         setLoading(true);
@@ -72,9 +74,10 @@ export default function AdminLoginPage() {
 
     return (
         <div
-            className="min-h-screen flex items-center justify-center"
+            className="relative min-h-svh flex items-center justify-center px-4 pt-20 pb-8 sm:py-8"
             style={{ backgroundColor: "var(--cream)" }}
         >
+            <ParticleNetwork cardSelector=".admin-auth-card" />
             {/* Decorative background pattern */}
             <div
                 className="absolute inset-0 opacity-5 pointer-events-none"
@@ -140,10 +143,10 @@ export default function AdminLoginPage() {
                 )}
             </div>
 
-            <div className="relative w-full max-w-sm mx-4">
+            <div className="relative w-full max-w-sm admin-auth-card">
                 {/* Card */}
                 <div
-                    className="rounded-2xl shadow-lg overflow-hidden"
+                    className="auth-card-glow rounded-2xl shadow-lg overflow-hidden"
                     style={{
                         backgroundColor: "var(--white)",
                         border: "1px solid var(--border)",
@@ -151,7 +154,7 @@ export default function AdminLoginPage() {
                 >
                     {/* Header band */}
                     <div
-                        className="px-8 py-7 text-center"
+                        className="px-5 py-6 sm:px-8 sm:py-7 text-center"
                         style={{ backgroundColor: "var(--blue)" }}
                     >
                         <div className="flex justify-center">
@@ -159,7 +162,7 @@ export default function AdminLoginPage() {
                         </div>
 
                         <h1
-                            className="text-3xl font-bold leading-snug"
+                            className="text-2xl sm:text-3xl font-bold leading-snug break-words"
                             style={{
                                 fontFamily: "var(--font-arabic-display)",
                                 color: "var(--white)",
@@ -169,7 +172,7 @@ export default function AdminLoginPage() {
                         </h1>
 
                         <div
-                            className="mt-1 text-2xl tracking-widest uppercase"
+                            className="mt-1 text-xl sm:text-2xl tracking-widest uppercase"
                             style={{ color: "var(--blue-light)", fontFamily: "var(--font-arabic-body)" }}
                         >
                             {t("panel")}
@@ -177,7 +180,7 @@ export default function AdminLoginPage() {
                     </div>
 
                     {/* Form */}
-                    <div className="px-8 py-7">
+                    <div className="px-5 py-6 sm:px-8 sm:py-7">
                         <form onSubmit={handleSubmit} className="space-y-5">
                             <div>
                                 <label
@@ -197,7 +200,7 @@ export default function AdminLoginPage() {
                                     required
                                     value={username}
                                     onChange={(e) => setUsername(e.target.value)}
-                                    className="w-full px-4 py-2.5 rounded-lg text-sm transition outline-none"
+                                    className="w-full px-4 py-3 sm:py-2.5 rounded-lg text-base sm:text-sm transition outline-none"
                                     style={{
                                         fontFamily: "var(--font-arabic-body)",
                                         backgroundColor: "var(--cream)",
@@ -234,7 +237,7 @@ export default function AdminLoginPage() {
                                     required
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    className="w-full px-4 py-2.5 rounded-lg text-sm transition outline-none"
+                                    className="w-full px-4 py-3 sm:py-2.5 rounded-lg text-base sm:text-sm transition outline-none"
                                     style={{
                                         fontFamily: "var(--font-arabic-body)",
                                         backgroundColor: "var(--cream)",
@@ -271,7 +274,7 @@ export default function AdminLoginPage() {
                             <button
                                 type="submit"
                                 disabled={loading}
-                                className="w-full py-2.5 px-4 rounded-lg font-medium text-sm transition-all"
+                                className="w-full py-3 sm:py-2.5 px-4 rounded-lg font-medium text-base sm:text-sm transition-all"
                                 style={{
                                     fontFamily: "var(--font-arabic-body)",
                                     backgroundColor: loading ? "var(--blue-light)" : "var(--blue)",
@@ -293,10 +296,7 @@ export default function AdminLoginPage() {
                 </div>
 
                 {/* Subtle shadow glow */}
-                <div
-                    className="absolute -inset-1 rounded-2xl -z-10 blur-xl opacity-20"
-                    style={{ backgroundColor: "var(--blue)" }}
-                />
+
             </div>
         </div>
     );
